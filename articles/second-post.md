@@ -1,31 +1,16 @@
-这是一段代码
+下面这段代码
 ===========
+使用Node.js的connect模块 搭建类似于apache的静态服务器
 
 <pre class="prettyprint">
-#include&lt;stdio.h&gt;
+var connect = require('connect');
+connect.createServer(
+    connect.static(__dirname)
+).listen(8888);
 
-int main(int argc, char** argv) {
-    printf("%s\n", "Hello, World!");
-}
 </pre>
 
-这是一些数学公式
+短短这些代码就可以构建一个静态服务器，都通过javascript搞定。
+得好好学习node开源代码，对负载、路由等底层http协议了解有帮助
 ===============
 
-\\[e^{i\\pi}+1=0\\]
-
-\\[\\begin{pmatrix}
-  1/\\sqrt{2}  & 1/\\sqrt{2} \\\\
-  -1/\\sqrt{2} & 1/\\sqrt{2}
-\\end{pmatrix}
-\\begin{pmatrix}
-  3 \\\\
-  2
-\\end{pmatrix}
-=
-\\begin{pmatrix}
-  5/\\sqrt{2} \\\\
-  -1/\\sqrt{2}
-\\end{pmatrix}\\]
-
-\\[Var(a)=\\frac{1}{m}\\sum\_{i=1}^m{(a\_i-\\mu)^2}\\]

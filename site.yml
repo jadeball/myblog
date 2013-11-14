@@ -4,16 +4,14 @@ link: 博客URL
 meta:
   description: 页面meta中的description
   keywords: !!seq
-    - 关键词1
-    - 关键词2
-    - 关键词3
-  author: 页面meta中的author
+    - Jadeball
+    - Home Page
+    - 金融 互联网 软件开发
+  author: 页面meta中的Jadeball
 master:
   name: jade
   about: 又一个程序猿 
   email: 邮箱
-tags:
-  - node.js  
 rss:
   title: RSS源标题
   desc: RSS源描述

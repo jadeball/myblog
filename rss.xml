@@ -4,8 +4,17 @@
         <title>RSS源标题</title>
         <link>博客URL</link>
         <description>RSS源描述</description>
-        <lastBuildDate>Thu, 14 Nov 2013 22:51:21 +0800</lastBuildDate>
+        <lastBuildDate>Thu, 14 Nov 2013 23:20:11 +0800</lastBuildDate>
         <language>zh-cn</language>
+        
+        <item> 
+            <title>Node.js的connect 构建静态文件服务器</title> 
+            <link>博客URL/articles/second-post.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link> 
+            <guid>博客URL/articles/second-post.html</guid> 
+            <author>邮箱 jade</author> 
+            <pubDate>Thu, 14 Nov 2013 00:00:00 +0800</pubDate> 
+            <description>使用Node.js的connect模块 搭建类似于apache的静态服务器。</description> 
+        </item> 
         
         <item> 
             <title>开篇</title> 
