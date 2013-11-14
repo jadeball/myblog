@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>RSS源标题</title>
+        <link>博客URL</link>
+        <description>RSS源描述</description>
+        <lastBuildDate>Thu, 14 Nov 2013 22:51:21 +0800</lastBuildDate>
+        <language>zh-cn</language>
+        
+        <item> 
+            <title>开篇</title> 
+            <link>博客URL/articles/first-post.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link> 
+            <guid>博客URL/articles/first-post.html</guid> 
+            <author>邮箱 jade</author> 
+            <pubDate>Wed, 13 Nov 2013 00:00:00 +0800</pubDate> 
+            <description>今天开始写博客，想积累些东西，记录些工作、生活、技术、兴趣的点滴。该博客系统完全使用javascript、node.js构建，界面简洁朴素，还有许多需要完善。</description> 
+        </item> 
+        
+    </channel>
+</rss>
