@@ -1,1 +1,1 @@
-http://blog.canku.me
+http://www.jadeball.cn
