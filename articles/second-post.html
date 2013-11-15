@@ -57,6 +57,8 @@
         
         <a class="tag" href="/tag.html#connect">connect</a>
         
+        <a class="tag" href="/tag.html#jetty">jetty</a>
+        
         </div>
         <div id="article-content">
             <h1 id="-">下面这段代码</h1>
@@ -67,23 +69,77 @@ connect.createServer(
 ).listen(8888);
 </pre>
 
-<p>短短这些代码就可以构建一个静态服务器，都通过javascript搞定。<br>
-本博客程序就是使用Node.js的connect模块 搭建类似于apache的静态服务器。</p>
+<p>短短这些代码就可以构建一个静态服务器，都通过javascript搞定。类似jetty的代码启动：<br></p>
+<pre class="prettyprint">
+public class WebJetty {
+    private static Server server = new Server();
+    public static void main(String[] args) throws Exception {
+        Connector connector = new SelectChannelConnector();
+        connector.setPort(8080);
+        server.addConnector(connector);
+
+        WebAppContext context = new WebAppContext("src/main/webapp", "/web");
+        context.setDefaultsDescriptor("src/test/resources/webdefault.xml");
+
+        HashUserRealm login = new HashUserRealm("login");
+        login.setConfig("src/test/resources/jetty-realm.properties");
+
+        SecurityHandler securityHandler = new SecurityHandler();
+        securityHandler.setUserRealm(login);
+
+        context.setSecurityHandler(securityHandler);
+        HandlerCollection handlers= new HandlerCollection();
+        handlers.setHandlers(new Handler[]{context, new DefaultHandler()});
+
+        server.setHandler(handlers);
+        server.setStopAtShutdown(true);
+        server.setSendServerVersion(true);
+
+        server.start();
+        server.join();
+    }
+}
+</pre>
+
+<p>本博客程序就是使用Node.js的connect模块 搭建类似于apache的静态服务器。</p>
 <h1 id="-node-http-">得好好学习node开源代码，对负载、路由等底层http协议了解有帮助</h1>
 
         </div>
-        
+        <!-- UJian Button BEGIN -->
+<div class="ujian-hook"></div>
+<script type="text/javascript">var ujian_config = {lkrc:0};</script>
+<script type="text/javascript" src="http://v1.ujian.cc/code/ujian.js?uid=1865575"></script>
+<a href="http://www.ujian.cc" style="border:0;"><img src="http://img.ujian.cc/pixel.png" alt="友荐云推荐" style="border:0;padding:0;margin:0;" /></a>
+<!-- UJian Button END -->
+<!-- JiaThis Button BEGIN -->
+<div class="bshare-custom"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+<!-- JiaThis Button END -->
+<!-- Duoshuo Comment BEGIN -->
+<div class="ds-thread"></div>
+<script type="text/javascript">
+    var duoshuoQuery = {short_name:"jadeball"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = 'http://static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+                || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- Duoshuo Comment END -->
     </div>
 </div>
         <div id="footer">
             <div id="footer-inner">
-                <p id="copyright">Copyright (c) 2013-2013 版权所有方</p>
-                <p id="icp"><a href="http://www.miibeian.gov.cn/" target="_blank">沪ICP备08321413号</a></p>
+                <p id="copyright">Copyright (c) 2013-2013 版权所有方  沪ICP备08321413号 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_5729375'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s17.cnzz.com/stat.php%3Fid%3D5729375%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+                </p>
+                <!--<p id="icp"><a href="http://www.miibeian.gov.cn/" target="_blank">沪ICP备08321413号</a></p>-->
             </div>
         </div>
         <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
 
-    </body>
+        </body>
 </html>
 
