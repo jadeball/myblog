@@ -5,6 +5,7 @@
   tags:
     - node.js
     - connect
+    - jetty
   abstract: 使用Node.js的connect模块 搭建类似于apache的静态服务器。
 
 - id: first-post
