@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f7ec6a-a043-4f9d-a3d2-95a0483fa575" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/youhua01.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/youhua02.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myblog.iws" />
@@ -430,7 +428,11 @@
       <created>1385188657065</created>
       <updated>1385188657065</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加文件  提交博客文章  提交前端优化">
+      <created>1385188673613</created>
+      <updated>1385188673613</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
