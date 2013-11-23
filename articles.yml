@@ -1,3 +1,13 @@
+- id: three-post
+  title: 前端性能优化之一 系统架构篇
+  postedOn: !!str 2013-11-23
+  author: 王玉球
+  tags:
+    - 前端性能优化
+    - CDN
+    - 系统架构
+  abstract: 前端性能与浏览器、网络运营商、CDN、负载均衡、静态服务器、Web服务器、系统开发等各个环节都息息相关，这次讲讲和系统整体架构相关。
+
 - id: second-post
   title: Node.js的connect 构建静态文件服务器
   postedOn: !!str 2013-11-14

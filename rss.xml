@@ -4,8 +4,17 @@
         <title>RSS源标题</title>
         <link>博客URL</link>
         <description>RSS源描述</description>
-        <lastBuildDate>Sat, 16 Nov 2013 00:14:03 +0800</lastBuildDate>
+        <lastBuildDate>Sat, 23 Nov 2013 14:25:02 +0800</lastBuildDate>
         <language>zh-cn</language>
+        
+        <item> 
+            <title>前端性能优化之一 系统架构篇</title> 
+            <link>博客URL/articles/three-post.html?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link> 
+            <guid>博客URL/articles/three-post.html</guid> 
+            <author>邮箱 jade</author> 
+            <pubDate>Sat, 23 Nov 2013 00:00:00 +0800</pubDate> 
+            <description>前端性能与浏览器、网络运营商、CDN、负载均衡、静态服务器、Web服务器、系统开发等各个环节都息息相关，这次讲讲和系统整体架构相关。</description> 
+        </item> 
         
         <item> 
             <title>Node.js的connect 构建静态文件服务器</title> 
