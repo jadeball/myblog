@@ -2,50 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f7ec6a-a043-4f9d-a3d2-95a0483fa575" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/brown_papersq.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/pojoaque.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/school_book.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/arta.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/ascetic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/brown_paper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/docco.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/far.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/foundation.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/github.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/googlecode.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/highlight.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/idea.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/ir_black.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/magula.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/mono-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/monokai.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/monokai_sublime.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/obsidian.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/pojoaque.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/railscasts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/rainbow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/school_book.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/solarized_dark.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/solarized_light.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/sunburst.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/tomorrow-night-blue.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/tomorrow-night-bright.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/tomorrow-night-eighties.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/tomorrow-night.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/tomorrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/vs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/xcode.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/highlight/styles/zenburn.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles.yml" afterPath="$PROJECT_DIR$/articles.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rss.xml" afterPath="$PROJECT_DIR$/rss.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/second-post.html" afterPath="$PROJECT_DIR$/articles/second-post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tag.html" afterPath="$PROJECT_DIR$/tag.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/three-post.md" afterPath="$PROJECT_DIR$/articles/three-post.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -73,7 +30,7 @@
       <file leaf-file-name="three-post.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/articles/three-post.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="186" column="59" selection-start="7064" selection-end="7064" vertical-scroll-proportion="0.41520467" vertical-offset="2577" max-vertical-offset="3120">
+            <state line="190" column="52" selection-start="7270" selection-end="7270" vertical-scroll-proportion="0.41520467" vertical-offset="2637" max-vertical-offset="3150">
               <folding />
             </state>
           </provider>
@@ -100,9 +57,9 @@
       <file leaf-file-name="three-post.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/articles/three-post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="0" selection-start="8810" selection-end="8810" vertical-scroll-proportion="25.625" vertical-offset="3795" max-vertical-offset="4620">
+            <state line="213" column="0" selection-start="8849" selection-end="8849" vertical-scroll-proportion="25.625" vertical-offset="3810" max-vertical-offset="4635">
               <folding>
-                <marker date="1385187902000" expanded="true" signature="3134:11088" placeholder="..." />
+                <marker date="1385188194000" expanded="true" signature="3134:11168" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -468,7 +425,11 @@
       <created>1385172715617</created>
       <updated>1385172715617</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加文件  提交博客文章  提交前端优化">
+      <created>1385187946217</created>
+      <updated>1385187946217</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,7 +487,8 @@
     <MESSAGE value="添加文件  第二篇博客" />
     <MESSAGE value="添加文件  提交社会化分享 社会化评论 社会化推荐文章" />
     <MESSAGE value="添加文件  提交博客文章" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文件  提交博客文章" />
+    <MESSAGE value="添加文件  提交博客文章  提交前端优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加文件  提交博客文章  提交前端优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -611,9 +573,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/three-post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="0" selection-start="8810" selection-end="8810" vertical-scroll-proportion="25.625" vertical-offset="3795" max-vertical-offset="4620">
+        <state line="213" column="0" selection-start="8849" selection-end="8849" vertical-scroll-proportion="25.625" vertical-offset="3810" max-vertical-offset="4635">
           <folding>
-            <marker date="1385187902000" expanded="true" signature="3134:11088" placeholder="..." />
+            <marker date="1385188194000" expanded="true" signature="3134:11168" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -641,7 +603,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/three-post.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="186" column="59" selection-start="7064" selection-end="7064" vertical-scroll-proportion="0.41520467" vertical-offset="2577" max-vertical-offset="3120">
+        <state line="190" column="52" selection-start="7270" selection-end="7270" vertical-scroll-proportion="0.41520467" vertical-offset="2637" max-vertical-offset="3150">
           <folding />
         </state>
       </provider>
