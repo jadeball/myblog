@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6f7ec6a-a043-4f9d-a3d2-95a0483fa575" name="Default" comment="添加文件  提交博客文章  提交前端优化">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/inc/article_footer_plugin.ejs" afterPath="$PROJECT_DIR$/templates/inc/article_footer_plugin.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/first-post.html" afterPath="$PROJECT_DIR$/articles/first-post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rss.xml" afterPath="$PROJECT_DIR$/rss.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/second-post.html" afterPath="$PROJECT_DIR$/articles/second-post.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/site.yml" afterPath="$PROJECT_DIR$/site.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/articles/three-post.html" afterPath="$PROJECT_DIR$/articles/three-post.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myblog.iws" />
@@ -26,51 +31,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="three-post.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles/three-post.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="52" selection-start="7270" selection-end="7270" vertical-scroll-proportion="0.0" vertical-offset="2637" max-vertical-offset="3150">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="highlight.pack.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/highlight/highlight.pack.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vs.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/highlight/styles/vs.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="three-post.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles/three-post.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="259" column="6" selection-start="10974" selection-end="10974" vertical-scroll-proportion="0.0" vertical-offset="3885" max-vertical-offset="4635">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="32" selection-start="211" selection-end="211" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -89,10 +49,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="article_footer_plugin.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="navbar.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/navbar.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="20" selection-start="2816" selection-end="2816" vertical-scroll-proportion="-6.2083335" vertical-offset="841" max-vertical-offset="1800">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="articles.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/articles.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/site.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="11" selection-start="252" selection-end="252" vertical-scroll-proportion="0.375" vertical-offset="60" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ext.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ext.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tag.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tag.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="11" selection-start="1055" selection-end="1055" vertical-scroll-proportion="11.25" vertical-offset="540" max-vertical-offset="1980">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_footer_plugin.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/inc/article_footer_plugin.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="578" selection-end="578" vertical-scroll-proportion="0.5124224" vertical-offset="0" max-vertical-offset="405">
+            <state line="19" column="9" selection-start="923" selection-end="923" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="405">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
               </folding>
@@ -100,19 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="second-post.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/articles/second-post.md">
+      <file leaf-file-name="pages.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="20" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="780">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about-me.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/about-me.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="13" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
@@ -142,7 +147,6 @@
         <option value="$PROJECT_DIR$/templates/inc/header.ejs" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/site.yml" />
         <option value="$PROJECT_DIR$/articles/second-post.md" />
         <option value="$PROJECT_DIR$/templates/inc/footer.ejs" />
         <option value="$PROJECT_DIR$/templates/articles.ejs" />
@@ -152,6 +156,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/articles/three-post.md" />
         <option value="$PROJECT_DIR$/templates/inc/article_footer_plugin.ejs" />
+        <option value="$PROJECT_DIR$/site.yml" />
       </list>
     </option>
   </component>
@@ -424,28 +429,32 @@
       <created>1385188704157</created>
       <updated>1385188704157</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="添加文件  提交博客文章  提交前端优化">
+      <created>1385393140462</created>
+      <updated>1385393140462</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="730" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3262295" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2354813" sideWeight="0.6721311" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2354813" sideWeight="0.6737705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39008266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3272727" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -491,44 +500,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles/first-post.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="13" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/site.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/navbar.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="318">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/about-me.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="13" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/articles/second-post.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="20" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/highlight/highlight.pack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="305">
@@ -553,11 +524,6 @@
     <entry file="file://$PROJECT_DIR$/images/youhua01.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="20" selection-start="2815" selection-end="2815" vertical-scroll-proportion="0.5302491" vertical-offset="841" max-vertical-offset="1800" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/articles/three-post.html">
@@ -590,10 +556,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/inc/article_footer_plugin.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="578" selection-end="578" vertical-scroll-proportion="0.5124224" vertical-offset="0" max-vertical-offset="405">
+        <state line="19" column="9" selection-start="923" selection-end="923" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="405">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tag.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="1055" selection-end="1055" vertical-scroll-proportion="11.25" vertical-offset="540" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/articles.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ext.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="359">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="20" selection-start="2816" selection-end="2816" vertical-scroll-proportion="-6.2083335" vertical-offset="841" max-vertical-offset="1800">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/navbar.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="359">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/site.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="11" selection-start="252" selection-end="252" vertical-scroll-proportion="0.375" vertical-offset="60" max-vertical-offset="480">
+          <folding />
         </state>
       </provider>
     </entry>
